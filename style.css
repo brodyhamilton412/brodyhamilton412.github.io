@@ -234,3 +234,12 @@ nav h1 {
   width: 100%;
   margin: 0;
 }
+#OpSpark a:hover {
+  background: #90ee90;
+  color: #000;
+}
+
+#Khan-Academy a:hover {
+  background: #4a90e2;
+  color: #fff;
+}
