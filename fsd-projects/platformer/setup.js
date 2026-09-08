@@ -102,4 +102,7 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   red: { image: "images/collectables/ReversalRed.webp" },
+  blackFlash: { image: "images/collectables/blackflash.png" },
+  sixEyes : { image: "images/collectables/gojo-eye.avif"},
+  mahoragaWheel: { image: "images/collectables/big-raga-wheel.png" },
 };
