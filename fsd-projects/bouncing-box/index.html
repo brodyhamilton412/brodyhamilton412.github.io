@@ -111,9 +111,9 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
-          positionX === 0;
-          positionY === 0;
-          changeBoxText(points);
+          positionX = 0;
+          positionY = 0;
+          changeBoxText(points + 1);
           points = points + 1;
           speed = 3 * points + 10;
           speedY = 3 * points + 10;
