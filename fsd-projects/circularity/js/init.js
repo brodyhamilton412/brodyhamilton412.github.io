@@ -43,7 +43,7 @@ var init = function (window) {
 
 
         // TODO 7 : Use a loop to create multiple circles
-        for (var i = 0; i < 50; i++) {
+        for (var i = 0; i < 100; i++) {
             drawCircle();
 }
 
@@ -114,7 +114,7 @@ var init = function (window) {
                 circle.x = canvas.width + circle.radius;
             }
             // if the circle has gone past the TOP side of the screen then place it on the BOTTOM
-            if (bottomEdge.y < 0){
+            if (bottomEdge < 0){
                 circle.y = canvas.height + circle.radius;
             }
             // if the circle has gone past the BOTTOM side of the screen then place it on the TOP 
